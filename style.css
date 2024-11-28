@@ -114,7 +114,7 @@
 
 }
 
-.right-sec > button{
+.nav-btn{
     background-color: black;
     font-size: 10px;
     letter-spacing: 1px;
@@ -125,7 +125,7 @@
     /* right: 50;; */
 }
 
-.right-sec > button:hover{
+.nav-btn:hover{
     background-color: red;
 }
 
@@ -476,9 +476,11 @@
     width: 100%;
     /* background-color: brown; */
     display: flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
     align-items: center;
 }
+
+
 
 .sec4-img1{
     height: 100%;
@@ -535,11 +537,123 @@
     align-items:flex-end;
 }
 
+/* footer */
+
+.footer{
+    height: 600px;
+    width: 100%;
+     background-color:  black;
+}
+
+.footer-sec1{
+    height: 140px;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: end ;
+    
+}
+
+.footer-logo > img{
+    height: 70px;
+    width: 70px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+ 
+}
+
+.footer-sec2{
+    height: 290px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+
+}
+
+.footer-sec2left{
+    height: 290px;
+    width: 30%;
+    /* background-color:rgb(7, 100, 100); */
+    padding: 24px;
+}
+
+.footer-sec2mid{
+    height: 290px;
+    width: 50%;
+    /* background-color:rgb(29, 100, 7); */
+    display: flex;
+    justify-content:  space-around;
+
+}
+
+.footer-sec2right{
+    height: 290px;
+    width: 20%;
+    /* background-color:rgb(100, 7, 46); */
+}
+
+.thirdclass{
+    font-size:22px ;
+    color: white;
+}
+.fourthclass{
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.582);
+
+}
+.small{
+    font-size:15px;
+    margin-top: 22px;
+}
+
+.fifthclass{
+    font-size:18px ;
+    color: white;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.list3{
+    width: 140px;
+
+}
+
+.footer-sec2mid li{
+    list-style: none;
+    color: white;
+    margin-bottom: 13px;
+    font-size: 18px;
+
+}
+
+.footer-sec2mid li:hover{
+    border-bottom:1px dashed white ;
+    cursor: pointer;
+}
 
 
 
+.thin-line{
+    height: 1px;
+    width: 96%;
+    margin: auto;
+    background-color: rgb(71, 71, 71);
+}
+
+.footer-sec3{
+    margin-right: 20px;
+    height:80px;
+    width: 100%;
+    /* background-color: rosybrown; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.63);
+}
 
 
-
-
-
+.footer-sec3 > li:hover{
+    border-bottom:1px dashed white ;
+    cursor: pointer;
+}
