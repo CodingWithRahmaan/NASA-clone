@@ -363,7 +363,7 @@
 
 
 .section3{
-    height: 500px;
+    height: 200px;
     width: 100%;
     /* background-color: rgb(0, 0, 0); */
     
@@ -443,6 +443,97 @@
     padding: 10px;
 }
 
+
+
+
+/* section 4 */
+
+
+.section4{
+    height: 750px;
+    width: 100%;
+    /* background-color: aqua; */
+
+}
+
+.text5{
+    height: 180px;
+    width: 100%;
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 60px;
+}
+
+.text5 >h1{
+    font-size: 50px;
+}
+
+.sec4-imgs{
+    height: 500px;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.sec4-img1{
+    height: 100%;
+    width: 22%;
+    /* background-color:blue; */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('asset/iss063e053998~large.jpg') center/cover;
+
+
+
+}
+.sec4-img2{
+    height: 100%;
+    width: 22%;
+    /* background-color:blue; */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('asset/edu_srch_microsofts_hacking_stem.webp') center/cover;
+
+
+
+}
+
+.sec4-img3{
+    height: 100%;
+    width: 22%;
+    /* background-color:blue; */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('asset/iss041e012095~large.jpg') center/cover;
+
+
+
+}
+
+.sec4-img4{
+    height: 100%;
+    width: 22%;
+    /* background-color:blue; */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('asset/meir-2.webp') center/cover;
+
+
+
+}
+
+.sec4-txt{
+    height: 100%;
+    width: 70%;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 20px;
+    padding-bottom: 50px;
+    color: white;
+    display: flex;
+    align-items:flex-end;
+}
 
 
 
